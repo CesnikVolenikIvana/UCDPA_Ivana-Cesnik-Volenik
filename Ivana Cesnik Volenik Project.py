@@ -15,7 +15,7 @@ def percentage(a,b):
     return round(a / b * 100, 2)
 
 
-#importing my chosen cvs file
+#importing my chosen csv file
 coffee_shop = pd.read_csv(r'file:///C:/Users/nicht/Documents/base_dataset.csv')
 
 #DATA INSPECTION
